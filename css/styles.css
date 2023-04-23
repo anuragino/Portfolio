@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&family=Noto+Serif+Telugu&family=Poppins&display=swap');
+
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #E0EBE8;
+    --intro-color: #38917D;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #293533;
+}
+
+p{
+    line-height: 2;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 30px auto 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--intro-color);
+}
+
+h3{
+    font-size: 1.4rem;
+    margin: 30px auto 15px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--intro-color);
+}
+
+h3:hover,h2:hover{
+    color:#007468;
+}
+
+.flex{
+    display: flex;
+}
+
+hr{
+    border: dotted #6c6c6c 7px;
+    border-bottom: none;
+    width: 5%;
+    margin: 10px auto 0 auto;
+}
+
+/* top-container */
+.Top-container{
+    height: 100vh;
+    background-color: var(--background-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    position: relative;
+}
+ 
+.My-image{
+    margin-top: 30px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+}
+
+/* nav-bar */
+
+.nav-bar{
+    width: 65vw;
+    height: 150px;
+}
+
+.nav-content{
+    width: 70%;
+    justify-content: end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav-content a{
+    margin: 30px;
+    text-decoration: none;
+    color: var(--intro-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.nav-bar a:hover{
+    color: #4f4f4f;
+}
+
+.middle{
+    margin: 5px 0 5px 0;
+    padding-left: 274px;
+    padding-right: 274px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    color: var(--intro-color);
+}
+
+.my-name{
+    position: relative;
+    left: 70px;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.my-domain{
+    position: relative;
+    left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.pic{
+    justify-content: center;
+}
+
+.right-cloud{
+    position: relative;
+    left: 200px;
+    top: -20px;
+}
+
+.left-cloud{
+    position: relative;
+    right: 520px;
+    bottom: -20px;
+}
+
+.land{
+    width: 800px;
+    height: 300px;
+    margin-bottom: -5px;
+}
+
+/* middle-conatiner */
+
+.profile{
+    width: 70%;
+    margin: 80px auto 0 auto;
+}
+
+.profile img{
+    margin-bottom: 30px;
+    margin-right: 60px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.profile p{
+    text-align: left;
+}
+
+.profile h2{
+    margin-top: 80px;
+}
+
+.skill-row{
+    width: 60%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+.skill-row p{
+    text-align: left;
+}
+
+.skill-row img{
+    margin: 0px auto 0px auto;
+}
+
+/* contact-me */
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.btn {
+    background: #163c34;
+    background-image: linear-gradient(to bottom, #3ea08a, #105c50);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f5f5;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+  
+.btn:hover {
+    background: #3ea08a;
+    background-image: linear-gradient(to bottom, #45b29a, #1b7f69);
+    text-decoration: none;
+}
+
+
+/* bottom-container */
+
+.bottom-container{
+    padding: 30px 0 20px;
+    margin-top: 100px;
+    background-color: #45b29a;
+}
+
+
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color:#163c34;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    
+    color: #eaf6f6;
+}
+
+
+.copyright{
+    margin-top: 10px;
+    color: #eaf6f6;
+    font-size: 0.7rem;
+    padding-block: 10px;
+}
+
