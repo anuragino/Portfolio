@@ -55,7 +55,7 @@ hr{
     border: dotted #6c6c6c 7px;
     border-bottom: none;
     width: 5%;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 20px auto;
 }
 
 /* top-container */
@@ -191,7 +191,26 @@ hr{
     margin: 0px auto 0px auto;
 }
 
+
+/* NewsLetter-Section */
+.Newsletter{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.newsLetter-message{
+    width: 40%;
+    margin: auto;
+    padding-block: 20px 50px;
+}
+
+
 /* contact-me */
+.contact-me{
+
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
 
 .contact-message{
     width: 40%;
@@ -211,6 +230,7 @@ hr{
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
+
   
 .btn:hover {
     background: #3ea08a;
